@@ -40,3 +40,24 @@ let randomNumber = Math.random()
 - Zorg ervoor dat jouw naam standaard ingevuld staat in een input element van type tekst (Tip: value attribuut)
 
 **Breng deze opdracht tot een goed einde door gebruik te maken van data-eigenschappen. Je gebruikt dus geen hard gecodeerde waardes binnen het template gedeelte!**
+
+### Deel 7 - Events
+Bouw volgende events:
+
+- Wanneer er geklikt wordt op de afbeelding zorg je ervoor dat onder de afbeelding een knop verschijnt met de tekst "Verberg mij".
+- Klik je op de knop dan wordt de knop terug verborgen
+
+Tip:
+
+    <button v-bind:style="visibility" ...>Verberg mij</button>
+
+### Deel 8 - Argumenten
+- Voeg een willekeurige afbeelding toe aan de assets-folder
+- Maak een methode waaraan je een pad naar een afbeelding kan meegeven als argument
+- Maak een nieuwe button aan met de volgende functionaliteit:
+    - Wanneer je klikt op de button gebruik je de methode en wordt de huidige afbeelding vervangen door de afbeelding die je aan de eerder aangemaakte methode hebt meegegeven
+
+
+### Deel 9 - Event object
+Pas de methode om de afbeelding te wijzigen aan:
+- Gebruik de target-property van het ingebouwde event object om de tekst van de (laatst toegevoegde) knop te wijzigen nadat je er op geklikt hebt
